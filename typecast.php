@@ -34,3 +34,4 @@ echo $height +1 .PHP_EOL;
 $age = 25;
 $name = "Age:" .(string)$age;
 echo $name .PHP_EOL;
+
