@@ -4,13 +4,13 @@
 #converrting float to int
 #converting bool to string
 
+
+
 #string to int
 $score = "100";
 $score=(int)$score;
 
 echo $score + 50 . PHP_EOL;
-
-
 
 
 #float to int
