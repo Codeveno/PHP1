@@ -26,3 +26,14 @@ echo (int)$completed . PHP_EOL;
 $done = false;
 echo (int)$done . PHP_EOL;
 
+
+#string to float
+$height ="5.9";
+$height = (float)$height;
+echo $height +1 .PHP_EOL;
+
+
+#integer to string
+$age = 25;
+$name = "Age:" .(string)$age;
+echo $name .PHP_EOL;
