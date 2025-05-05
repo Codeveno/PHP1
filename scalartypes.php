@@ -1,14 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PHP Scalar Types</title>
+</head>
+<body>
+    <?php
+    $completed = true;
+    $score = 75;
+    $price = 0.99;
+    $greeting = "Hello, world";
 
-
-<?php
-$completed = true;
-$score = 75;
-$price = 0.99;
-$greating = "Hello, world";
-
-
-echo $completed;
-echo $score;
-echo $price;
-echo $greating;
-?>
+    echo $completed . '<br />';
+    echo $score . '<br />';
+    echo $price . '<br />';
+    echo $greeting . '<br />';
+    ?>
+</body>
+</html>
