@@ -10,6 +10,7 @@
     $price = 0.99;
     $greeting = "Hello, world";
 
+    
     echo $completed . '<br />';
     echo $score . '<br />';
     echo $price . '<br />';
