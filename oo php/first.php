@@ -19,5 +19,5 @@
 //the house is an instance of the class
 
 //we can create multiple houses from the same blueprint
-//the house in this case is a class
-//the blueprint is an object
+//The house in this case is a class
+//The blueprint is an object
