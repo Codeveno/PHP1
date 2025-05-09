@@ -12,8 +12,8 @@ enum Status: string {
     // A method within the Enum to check if the status is final (not pending)
     public function isFinal(): bool {
         return $this === self::Approved || $this === self::Rejected;
+        }
     }
-}
 
 function getOrderStatus(Status $status): string {
     // Function that takes an Enum as an argument and returns a message based on the Enum case
